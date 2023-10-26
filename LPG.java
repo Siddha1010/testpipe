@@ -1,6 +1,6 @@
 
 import java.util.*;
-import java.uti.scanner;
+import java.util.scanner;
 
 // Observer Pattern: Observers to listen to state changes
 interface Observer {
