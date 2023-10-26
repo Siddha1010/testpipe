@@ -11,6 +11,7 @@ interface Observer {
 class User implements Observer {
     private String name;
     private String classname;
+    int marks;
 
     public User(String name) {
         this.name = name;
