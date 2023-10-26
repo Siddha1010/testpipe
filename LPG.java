@@ -10,6 +10,7 @@ interface Observer {
 // Concrete Observer
 class User implements Observer {
     private String name;
+    private String classname;
 
     public User(String name) {
         this.name = name;
